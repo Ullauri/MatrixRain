@@ -6,6 +6,7 @@ import java.awt.Font;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Symbol extends JLabel {
+    // The hexadecimal value of the first character and how many characters exist in that alphabet
     public static final int SIZE = 20, CHARS_START = Integer.parseInt("FF66", 16), CHARS_LENGTH = 55;
     public final String[] CHARS;
     public final int ORIGIN_Y, CHANGE_RATE;
